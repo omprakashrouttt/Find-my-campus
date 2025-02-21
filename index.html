@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find My Campus</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>  
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css" />
+    <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script> 
+</head>
+<body>
+    <header>
+        <h1>Find My Campus</h1>
+    </header>
+
+    
+    <section class="search-section">
+        <input type="text" id="searchBox" placeholder="Enter building name..." oninput="showRecommendations()" autocomplete="off">
+        <ul id="recommendations"></ul> <!-- List for recommendations -->
+    </section>
+
+    <section class="map-section">
+        <div id="campusMap" style="height: 400px;"></div> <!-- Ensuring the map has a height -->
+    </section>
+
+    <section class="info-section">
+        <h2>Building Information</h2>
+        <p id="buildingInfo">Search for a building to get details...</p>
+    </section>
+    <!-- Link the external script.js file -->
+    <script src="script.js"></script>
+</body>
+</html>
