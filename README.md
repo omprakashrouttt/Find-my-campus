@@ -43,12 +43,6 @@ Find My Campus is a simple and intuitive web project designed to help new studen
 2. Click a result to view its location on the map
 3. Select **Directions**, choose start and end points, and follow the route
 
-## Screenshots
-<p align="center">
-  <img src="docs/screenshots/home.png" alt="Home Screen" width="300" />
-  <img src="docs/screenshots/directions.png" alt="Directions Panel" width="300" />
-</p>
-
 ## Contributing
 Contributions are welcome! Please fork the repo, create a branch for your feature, and submit a pull request.
 
